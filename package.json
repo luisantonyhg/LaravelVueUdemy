@@ -25,6 +25,8 @@
     },
     "dependencies": {
         "element-ui": "^2.15.1",
+        "laravel-echo": "^1.10.0",
+        "pusher-js": "^7.0.3",
         "vue-router": "^3.5.1"
     }
 }

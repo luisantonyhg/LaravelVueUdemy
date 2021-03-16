@@ -10,6 +10,8 @@ Route::get('/{optional?}', function () {
 
 Route::get('/administracion/usuario/getListUsuarios', 'Administracion\UserController@getListUsuarios');
 
+Route::get('chat', 'App\Http\Controllers\ChatController@show')->name('chat.show');
+
 // ============================================================================================================================
 // =================================CREACION DE RUTAS CON CONTROLADOR Y METODOS================================================
 // ============================================================================================================================
